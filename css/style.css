@@ -1,0 +1,22 @@
+.head{
+    float: left;
+}
+
+.bandeauGrafic{
+    background-color: aqua;
+   margin: 0% auto;
+    position:absolute;
+    height: 288px;
+    top:0px;
+    background-image:url( ../img/background.jpg) repeat-x;
+   
+}
+.formulaire{
+    background-color: bisque;
+}
+.textFooter{
+    background-color: blue;
+}
+.logo{
+    background-color: blueviolet;
+}
