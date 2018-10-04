@@ -9,49 +9,47 @@
 </head>
 
 <body>
-    <div id="page">
-    <!-- DIV : Aucun sens sémantique - zone géographique -->
-    
-        <header class="head"><!-- Entête de la zone considérée -->
-            <div class="bandeau">OhMyCat!!!!</div>
-            <div class="bandeauGrafic"></div>
-        </header>
-        <div class="clearFloat"></div>
-        <main class="corpTexte">main
-            <aside>
-                <div class="formulaire">
-                    <h1>Les chats à adopter</h1>
-                    <form action="">
-                        <SELECT name="nom" size="1">
-                            <OPTION>Selectionner
-                                <OPTION>chat 2
-                                    <OPTION>chat 3
-                                        <OPTION>chat 4
-                                            <OPTION>chat5
-                                            </SELECT>
-                                            <input type="submit" name="submey" value="Envoyer">
-                                        </form>
-                                    </div>
-                                    
-                </aside>
-            <article class="corpText">
-                 <img src="img/chat.jpg" alt="Sushi">
-            </article>
-        </main>
-
-        <footer><!-- Pied-de-page de la page -> site -->
-            <div class="textFooter">
-                <div class="contenuFooter">
-                    <h1>Nos chats à adopter</h1>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias totam reprehenderit minima quia possimus excepturi fugit, tenetur architecto quidem recusandae dolorum odit accusantium laboriosam ut vero, dicta ad minus deleniti.
+    <head>
+        <div class="bandeau "></div>
+        <div class="bandeauGraphic "><h1>Adopter un chat trop bon!</h1></div>
+    </head>
+    <main>
+        <section class="gauche fondbleu">
+          <div class="centrage">
+                <h2>Adopter un chat</h2>
+            <form action="post">
+                <label for=""><p>Choix du chat</p></label>
+                <SELECT name="nom" size="1">
+                <OPTION>Selectionner
+                <OPTION>Chat 1
+                <OPTION>Chat 2
+                </SELECT>
+                <label for=""><p>Raison du choix</p></label>
+                <input class="champs" type="text" height="100px">
+            </form>
+          </div>
+        </section>
+        <section class="droite fondbleu">
+            <img src="img/chat.jpg" alt="">
+        </section>
+        <div class="clearFix"></div>
+        <section class="bas">
+            <div class="centrage">
+                <div class="textPied">
+                    <h2>Nos chats à adopter</h2>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ipsam maiores dolor dolorum provident voluptatem! Nobis, qui facilis maiores nulla, at corporis minima officiis explicabo ab provident quia dicta enim?
+                    
                 </div>
-        </div>
-           
-            <div class="logo">
-                footer logo
+                <div class="logoChat"><img src="img/tete-chat.png" alt=""></div>
             </div>
-        </footer>
-        
-    </div>
+            <div class="clearFix"></div>
+        </section>
+    </main>
+    <footer class="footer">
+
+    </footer>
+    
+
+
 </body>
 </html>

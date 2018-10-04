@@ -1,54 +1,53 @@
-.head{
+.fondBleu{
     background-color: blue;
-    height: 50px;
+    border:solid;
+}
+.bandeauGraphic{
+    background-image: url(../img/background.jpg);
     width: 100%;
-    margin: 0% auto;
-   
+    height: 200px;
+    vertical-align: center;
 }
-
-.formulaire{
-   
+.gauche{
+    float:left;
+    height: 300px;
     width: 30%;
-    height: 100%;
 }
-.clearFloat{
+.droite{
+    margin-top: 30px;
+}
+.champs{
+    height: 400px;
+    width: 150px;
+}
+.bas{
+    background-color:#a1a1a1e5;
+    height: 200px;
+
+}
+.textPied{
+    float: left;
+    width: 70%;
+    margin: 20px auto;
+}
+.centrage{
+    margin:0 auto;
+    width: 70%;
+}
+.logoChat{
+    float: right;
+    height: 100px;
+    width: 100px;
+}
+.logoChat img{
+    width: 100%;
+    background-color: blue
+}
+.clearFix{
     clear: both;
 }
-.bandeauGrafic{
-   
-    margin: 0% auto;
-    position:absolute;
-    top: 50px;
-    height: 288px;
+.footer{
+    background-color: blue;
+    height:50px;
     width: 100%;
-    background-image:url( ../img/background.jpg);
-   
-}
-.corpText{
-    float: right;
-    position: absolute;
-    top: 338px;
-    right: 0px;
-}
-.formulaire{
-    background-color: bisque;
-}
-.textFooter{
-    background-color:grey;
-    margin 0% auto;
-}
-.contenuFooter {
-    width: 70%;
-    margin: 0% auto;
-}
-.logo{
-    background-color: blueviolet;
-}
-
-
-@media only screen and (max-device-width:480px) {
-    body {
-        background-color: black;
-        color: white
-    }
 }
