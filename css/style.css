@@ -1,54 +1,103 @@
-.head{
-    background-color: blue;
-    height: 50px;
-    width: 100%;
-    margin: 0% auto;
-   
+/* Layout */
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
 }
 
-.formulaire{
-   
-    width: 30%;
+.navHaute{
+    height: 40px;
+    background-color: #061339;
+    color: white;
+
+
+
+}
+.bandeGraphic{
+    background-image: url("../img/background.jpg");
+    text-align: center;
+    height: 170px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.largeurSite{
+    width: 800px;
+    margin: 0 auto;
+}
+.bandeGraphic{
+
+}
+.wrapper{
+flex-direction: row;
+    background-color: #F1F1F1;
+}
+.centre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: O;
+    padding: 20px;
+    background-color: #F1F1F1;
+}
+.italic{
+    font-style: italic;
+}
+.gauche{}
+.droit{}
+.droit img{
+
+    width: 600px;
+}
+.bas{
+    background-color: #dddddd;
+
+
+}
+.vert{
+    background-color: chartreuse;
+}
+.piedPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.article{
+    width: 60%;
+
+}
+.teteChat{
+
+    width: 200px;
+    height: 200px;
+    background-color: #7885A5;
+}
+.teteChat img{
+    width: 200px;
+
+}
+.footer{
+    background-color: #061339;
+    height: 60px;
     height: 100%;
+    color: #F1F1F1;
+    text-align: right;
+    padding-right: 10px;
 }
-.clearFloat{
-    clear: both;
+.titreForm{
+    font-weight: bold;
 }
-.bandeauGrafic{
-   
-    margin: 0% auto;
-    position:absolute;
-    top: 50px;
-    height: 288px;
-    width: 100%;
-    background-image:url( ../img/background.jpg);
-   
+.fenetre{
+    width: 150px;
+}.fenetreHauteur{
+    height: 200px;
 }
-.corpText{
-    float: right;
-    position: absolute;
-    top: 338px;
-    right: 0px;
-}
-.formulaire{
-    background-color: bisque;
-}
-.textFooter{
-    background-color:grey;
-    margin 0% auto;
-}
-.contenuFooter {
-    width: 70%;
-    margin: 0% auto;
-}
-.logo{
-    background-color: blueviolet;
-}
-
-
-@media only screen and (max-device-width:480px) {
-    body {
-        background-color: black;
-        color: white
-    }
-}
+ p{
+     margin: 0;
+     padding: 0;
+ }
